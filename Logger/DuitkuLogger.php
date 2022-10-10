@@ -46,4 +46,5 @@ class DuitkuLogger extends Logger
     {
         $errorMessage = 'Duitku ePay Info - ID: ' .$id . ' - ' . $reason;
         $this->addRecord(static::NOTIFICATION, $errorMessage);
+    }
 }

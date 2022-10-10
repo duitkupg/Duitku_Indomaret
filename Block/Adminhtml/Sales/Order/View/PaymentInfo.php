@@ -161,7 +161,7 @@ class PaymentInfo extends \Magento\Backend\Block\Template
                 // convert to array
                 $historyArray = array($transactionInformation->history->TransactionHistoryInfo);
             }
-            $res .= '<br /><br />';
+            $res = '<br /><br />';
             $res .= '<tr><td colspan="2" class="duitku_table_title duitku_table_title_padding">' . __("History") . '</td></tr>';
             foreach ($historyArray as $history) {
                 $res .= '<tr class="duitku_table_history_tr"><td class="duitku_table_history_td">' . str_replace('T', ' ', $history->created) . '</td>';
