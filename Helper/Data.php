@@ -14,9 +14,9 @@
  */
 
 namespace Duitku\Indomaret\Helper;
-include_once('Duitku/DuitkuCore.php');
+// include_once('Duitku/DuitkuCore.php');
 use Duitku\Indomaret\Helper\DuitkuConstants;
-use Duitku_Indomaret_Core;
+use Duitku\Indomaret\Helper\Duitku\Duitku_Indomaret_Core;
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
     /**

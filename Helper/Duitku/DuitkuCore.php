@@ -1,5 +1,7 @@
 <?php
-include_once('ApiRequestor.php');
+namespace Duitku\Indomaret\Helper\Duitku;
+// include_once('ApiRequestor.php');
+use Duitku\Indomaret\Helper\Duitku\Duitku_Indomaret_ApiRequestor;
 class Duitku_Indomaret_Core {
 
   public static function getRedirectionUrl($baseUrl, $params)
