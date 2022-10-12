@@ -1,5 +1,4 @@
 <?php
-namespace Duitku\Indomaret\Helper\Duitku;
 
 class Duitku_Indomaret_ApiRequestor {
 
